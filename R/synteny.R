@@ -6,7 +6,7 @@ alignments <- c("agri_asoc", "gmel_asoc", "ccep_asoc")
 
 
 for (alignment in alignments) {
-    paf <- read_tsv(paste0("/glittertind/home/ronjasan/spaceface/larvae/synteny/minimap2/", alignment, ".paf"),
+    paf <- read_tsv(paste0("data/minimap2/", alignment, ".paf"),
         col_names = c(
             "query", "query_length", "query_start", "query_end", "strand",
             "target", "target_length", "target_start", "target_end",
@@ -167,6 +167,3 @@ plot_both <- plot_grid(
     label_fontface = "bold",
     align = "hv"
 )
-plot_both
-
-ggsave("/glittertind/home/ronjasan/spaceface/larvae/synteny/R/synteny_asoc.pdf", plot_both, width = 55, height = 15, units = "cm")

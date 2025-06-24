@@ -1,0 +1,13 @@
+Stat	Canu (standard)	Canu (0.01)	Canu (0.02)	Canu (0.03)	Polished
+Genome size (Mb)	1299	1298	1294	1294	675
+Number of contigs	2926	2556	1451	1381	347
+Contig N50 (Mb)	0.78	1.23	2.58	2.32	4.96
+Contig L50	377	258	113	134	30
+Coverage	46	46	46	46	64
+Inspector (QV)	31.05	32.94	31.66	31.34	46.48
+Merqury (QV)	38.13	40.45	39.85	39.66	43.84
+BUSCO completeness (%)	96.8	98.6	98.6	98.7	98.3
+BUSCO single-copy (%)	12.2	8	6.5	6.6	94.4
+BUSCO duplicate (%)	86.4	90.6	92.2	92.1	3.9
+BUSCO fragmented (%)	0.5	0.6	0.5	0.5	0.6
+BUSCO missing (%)	0.8	0.8	0.8	0.8	1.1
