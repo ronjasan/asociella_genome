@@ -1,0 +1,8 @@
+genome: canu_0.02/GCA_052324605.1.fna
+taxid: 688398
+short_reads:
+  - RNAseq/SRR34022945_fastp_R1.fastq
+  - RNAseq/SRR34022945_fastp_R2.fastq
+long_reads:
+  - RNAseq/SRR34022944_fastplong.fastq
+locus_tag_prefix: ACR2FA
